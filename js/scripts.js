@@ -11,3 +11,17 @@ $(document).ready(function() {
     $("#Operators-hide").toggle();
   });
 });
+
+$(document).ready(function() {
+  $("button#Methods").click(function() {
+    $("#Methods-showing").toggle();
+    $("#Methods-hide").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("button#Attributes").click(function() {
+    $("#Attributes-showing").toggle();
+    $("#Attributes-hide").toggle();
+  });
+});
